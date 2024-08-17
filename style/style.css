@@ -1,0 +1,59 @@
+body {
+    background-image: url('../img/1Audiwallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1920px;
+    height: 900px;
+}
+
+.logo{
+    padding-left: 120px;
+    padding-top: 40px;
+}
+
+.mainmenu{
+    display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 1004px;
+width: 1676px;
+height: 60px;
+}
+.menu{
+    display: flex;
+align-items: flex-start;
+justify-content: space-around;
+flex-direction: row;
+gap: 50px;
+width: 509px;
+height: 24px;
+text-decoration: none;
+}
+.menulink{
+    font: 400 20px "Inter", sans-serif;
+color: #fff;
+text-decoration: none;
+padding: 10px;
+    margin: 0;
+    font-size: 16px;
+    white-space: nowrap; /* Предотвращает перенос текста */
+}
+
+.title{
+    font: 600 32px "Inter", sans-serif;
+color: #fff;
+flex-direction: row;
+    display: block;
+padding-left: 120px;
+padding-top: 593px;
+}
+.firsttext{
+    font: 400 20px "Inter", sans-serif;
+color: #fff;
+flex-direction: row;
+    display: block;
+height:  652px;
+width:  120px;
+}
